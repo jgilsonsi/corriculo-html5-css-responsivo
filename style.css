@@ -1,0 +1,117 @@
+/*Main style*/
+html {
+    font-family: 'PT Sans',sans-serif; 
+    color: #2F2D2B; 
+    font-size: 1em;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 70%; 
+}
+
+/*Reader style*/
+header.vcard {
+    margin-bottom: 0.51em; 
+    overflow: hidden;
+}
+
+.name {
+    font-size: 2.5em; 
+    font-weight: bold; 
+    padding-left: 0.51em;
+}
+
+.role {
+    background: #3F433F; 
+    color: #FCFCFC; 
+    font-weight: normal; 
+    padding: 0.225em 0.225em 0.225em 0.765em; 
+    border-radius: 0.225em;
+}
+
+.vcard p {
+    padding: 0 1.02em 0.225em;
+}
+
+/*Content style*/
+section {
+    margin: 1.53em 0; 
+    overflow: hidden; 
+}
+
+section h1 {
+    font-size: 1.25em; 
+    margin-bottom: 0.51em; 
+    padding-left: 0.225em; 
+}
+
+section p {
+    line-height: 1.5em; 
+    padding: 0 1.02em 0.225em;
+}
+
+#skills dl {
+    margin-left: 0.765em;
+}
+
+#skills dl dt {
+    clear: left; 
+    display: inline; 
+    float: left; 
+    margin: 0.51em 0.225em 0.51em 0; 
+    padding: 0.102em; 
+    text-align: right; 
+    width: 7.65em;
+}
+
+#skills dl dd {
+    background: #3f433f;
+    color: #ffffff;
+    float: left; 
+    border-radius: 0.225em;
+    margin: 0.51em 0.204em; 
+    padding: 0.204em;
+}
+
+#skills dl dd:hover {
+    background-color: #ccc; 
+    color: #3f433f;
+}
+
+#experience h2 {
+    font-size: 1.1em; 
+    padding-left: 1.02em;
+}
+
+#experience p {
+    padding-top: 0.225em;
+}
+
+#education h2 {
+    font-size: 1.1em; 
+    padding-left: 1.02em;
+}
+
+#education p {
+    padding-top: 0.225em;
+}
+
+#contacts p {
+    padding: 0 1.02em 0.225em;
+}
+
+#contacts p a {
+    color: #555
+}
+
+/*Media queries*/
+@media screen and (max-width:680px) {
+    #skills dl dt {
+        display: block; 
+        float: none; 
+        margin: 0; 
+        text-align: left;
+    }
+}
