@@ -1,1 +1,1 @@
-"# corriculo-html5-css-responsivo" 
+Currículo utilizando HTML5 semântico e técnicas de layout responsivo.
